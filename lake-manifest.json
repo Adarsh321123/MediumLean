@@ -1,5 +1,14 @@
 {"version": "1.1.0",
  "packagesDir": ".lake/packages",
- "packages": [],
+ "packages": [
+    {"url": "https://github.com/leanprover-community/import-graph.git",
+    "type": "git",
+    "subDir": null,
+    "rev": "35e38eb320982cfd2fcc864e0e0467ca223c8cdb",
+    "name": "importGraph",
+    "manifestFile": "lake-manifest.json",
+    "inputRev": "main",
+    "inherited": true,
+    "configFile": "lakefile.toml"}],
  "name": "MediumLean",
  "lakeDir": ".lake"}
